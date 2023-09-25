@@ -1,0 +1,7 @@
+set_global_assignment -name VERILOG_FILE rtl/ImgROM.v
+set_global_assignment -name VERILOG_FILE rtl/LCD_Controller.v
+set_global_assignment -name VERILOG_FILE rtl/top.v
+set_global_assignment -name SDC_FILE PartyParrot.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE PartyParrot.sv
+set_global_assignment -name MIF_FILE rtl/PartyColorsLUT.mif
+set_global_assignment -name QIP_FILE rtl/PartyColorsLUT.qip
